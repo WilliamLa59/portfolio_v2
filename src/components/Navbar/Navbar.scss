@@ -1,0 +1,25 @@
+#navbar {
+    
+    nav{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0;
+    }
+    .logo{
+        margin-left: 3rem;
+    }
+    .nav-links{
+        display: flex;
+        margin-right: 3rem;
+        ol{
+            display:flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            a{
+                padding: 1rem;
+            }
+        }
+    }
+}
